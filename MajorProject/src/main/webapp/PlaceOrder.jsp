@@ -46,9 +46,7 @@ try{
 	   httpSession.setAttribute("pqt", qr);
                      // response.sendRedirect("authorize_payment");
 
-                  rd.fucoku to asshole.jsp.
-         response.sendRedirect("ant");
-	// response.sendRedirect("auth_payment");
+                  
 	}
 }
 catch(Exception E)
