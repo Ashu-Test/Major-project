@@ -44,7 +44,11 @@ try{
 	
 	   httpSession.setAttribute("pid", pid);
 	   httpSession.setAttribute("pqt", qr);
-	 response.sendRedirect("authorize_payment");
+
+
+
+
+	// response.sendRedirect("authorize_payment");
 	}
 }
 catch(Exception E)
