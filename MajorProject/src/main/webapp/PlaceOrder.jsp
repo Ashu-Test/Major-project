@@ -40,7 +40,7 @@ try{
 		ps2.setInt(4,qr);
 		ps2.setInt(5,qr*c);
 		int i=ps2.executeUpdate();
-	//	response.sendRedirect("Orders.jsp");
+		response.sendRedirect("Orders.jsp");
 	
 	   httpSession.setAttribute("pid", pid);
 	   httpSession.setAttribute("pqt", qr);
