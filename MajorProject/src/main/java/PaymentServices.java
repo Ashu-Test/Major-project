@@ -36,9 +36,9 @@ public class PaymentServices {
     payer.setPaymentMethod("paypal");
      
     PayerInfo payerInfo = new PayerInfo();
-    payerInfo.setFirstName("Test")
-             .setLastName("Testing")
-             .setEmail("test@Tesing.com");
+    payerInfo.setFirstName("Ashutosh")
+             .setLastName("Tripathi")
+             .setEmail("ashutoshtripathi6937@gmail.com");
      
     payer.setPayerInfo(payerInfo);
      
@@ -47,8 +47,8 @@ public class PaymentServices {
      
    private RedirectUrls getRedirectURLs() {
     RedirectUrls redirectUrls = new RedirectUrls();
-    redirectUrls.setCancelUrl("http://localhost:5050/ECommerce/cancel.html");
-    redirectUrls.setReturnUrl("http://localhost:5050/ECommerce/review_payment");
+    redirectUrls.setCancelUrl("http://localhost:9494/Major/cancel.html");
+    redirectUrls.setReturnUrl("http://localhost:9494/Major/review_payment");
      
     return redirectUrls;
 }
